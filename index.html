@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>News App</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="header_container">
+        <div class="vector">
+          <img src="./images/Vector.png" alt="hamburger menu icon" />
+        </div>
+        <div class="logo_container">
+          <img src="./images/_.png" alt="Logo" id="logo icon" />
+        </div>
+        <div class="avatar">
+          <img src="./images/avatar.png" alt="avatar icon" />
+        </div>
+      </div>
+
+      <div class="posts"></div>
+
+      <div class="footer_container">
+        <button class="plus_icon_container">
+          <img src="./images/Plus.png" alt="add icon" />
+        </button>
+      </div>
+    </div>
+    <!-- modal -->
+    <div class="modal">
+      <div class="modal_content">
+        <button class="close_modal">
+          <img src="./images/close-icon.png" alt="X icon" />
+        </button>
+        <div id="txtarea_cnt">
+          <div id="textarea_title_container">
+            <p class="title">What's on your mind?</p>
+          </div>
+          <div id="textarea_container">
+            <textarea
+              id="textarea"
+              placeholder=" up to 400 letters..."
+              maxlength="400"
+            ></textarea>
+          </div>
+          <div id="uploadimg_title">
+            <p class="title">Upload an image...</p>
+          </div>
+          <!-- image uploader -->
+          <div class="file-area">
+            <input
+              type="file"
+              name="images"
+              id="images"
+              accept=".png, .jpg, .jpeg"
+            />
+            <div class="file-dummy">Upload an image</div>
+            <div id="preview_image"></div>
+          </div>
+          <div id="image_name_container" style="display: none"></div>
+
+          <div class="publish_btn_container">
+            <button id="publish_btn">
+              <p calss="title">Publish</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
