@@ -4,4 +4,5 @@ An app with Html, Css and pure Vanilla JavaScrypt. The main purpose of creating 
 
 
 
-![Screenshot 2022-10-24 115346](https://user-images.githubusercontent.com/55147150/197593801-3f470d7d-ebb8-4708-adf4-6c82f03f730f.png)
+
+![Screenshot 2022-10-24 115852](https://user-images.githubusercontent.com/55147150/197593988-e239bfad-228d-4710-a2be-36fda1ba1218.png)
